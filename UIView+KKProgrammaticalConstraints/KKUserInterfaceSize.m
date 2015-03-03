@@ -10,8 +10,8 @@
 
 @implementation KKUserInterfaceSize
 
-+ (KKUserInterfaceSize*)sizeWithHorizontalSizeClass:(UIUserInterfaceSizeClass)horizontalSizeClass verticalSizeClass:(UIUserInterfaceSizeClass)verticalSizeClass {
-    return [[KKUserInterfaceSize alloc]initWithHorizontalSizeClass:horizontalSizeClass verticalSizeClass:verticalSizeClass];
++ (instancetype)sizeWithHorizontalSizeClass:(UIUserInterfaceSizeClass)horizontalSizeClass verticalSizeClass:(UIUserInterfaceSizeClass)verticalSizeClass {
+    return [[self alloc]initWithHorizontalSizeClass:horizontalSizeClass verticalSizeClass:verticalSizeClass];
 }
 
 - (id)initWithHorizontalSizeClass:(UIUserInterfaceSizeClass)horizontalSizeClass verticalSizeClass:(UIUserInterfaceSizeClass)verticalSizeClass {

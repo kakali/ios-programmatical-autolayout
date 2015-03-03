@@ -12,7 +12,7 @@
 @property(nonatomic) UIUserInterfaceSizeClass horizontalSizeClass;
 @property(nonatomic) UIUserInterfaceSizeClass verticalSizeClass;
 
-+ (KKUserInterfaceSize*)sizeWithHorizontalSizeClass:(UIUserInterfaceSizeClass)horizontalSizeClass verticalSizeClass:(UIUserInterfaceSizeClass)verticalSizeClass;
++ (instancetype)sizeWithHorizontalSizeClass:(UIUserInterfaceSizeClass)horizontalSizeClass verticalSizeClass:(UIUserInterfaceSizeClass)verticalSizeClass;
 
 - (id)initWithHorizontalSizeClass:(UIUserInterfaceSizeClass)horizontalSizeClass verticalSizeClass:(UIUserInterfaceSizeClass)verticalSizeClass;
 
